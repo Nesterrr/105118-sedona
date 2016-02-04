@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Academy: Седона</title>
+</head>
+<body>
+    <header>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="#">Информация</a></li>
+                <li><a href="#">Фото и видео</a></li>
+                <li><img src="#" alt="Sedona"></li>
+                <li><a href="#">Карта штата</a></li>
+                <li><a href="#">Гостиницы</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="inner">
+        <div class="house-choice-form">
+            <form action="#" method="post">
+                <div class="checkbox">
+                    <div>
+                        <h2>Инфраструктура:</h2>
+                        <ul>
+                            <li>
+                                <input type="checkbox" id="swimmingpool" checked>
+                                <label for="swimmingpool">Бассейн</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="parking">
+                                <label for="parking">Парковка</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="wifi">
+                                <label for="wifi">Wi-fi</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>Тип жилья:</h2>
+                        <ul>
+                            <li>
+                                <input type="checkbox" id="hotel" checked>
+                                <label for="hotel">Гостиница</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="motel" checked>
+                                <label for="motel">Мотель</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="apartment" checked>
+                                <label for="apartment">Апартаменты</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="day-price">
+                    <h2>Стоимость в  сутки(Р):</h2>
+                        <input type="text" value="от 0">
+                        <input type="text" value="до 3000">
+                        <input type="range" min="0" max="3000" step="10">
+                </div>
+                <input type="submit" class="show-lodging-btn" value="Показать">
+            </form>
+        </div>
+        <div class="found">
+            <div class="head-found">
+                <ul>
+                    <li><h2>Найдено:3</h2></li>
+                    <li><h3>Сортировка</h3></li>
+                    <li><span>По цене</span></li>
+                    <li><span>По типу</span></li>
+                    <li><span>По рейтингу</span></li>
+                    <li><a href="#"><img src="pic.png" alt="меньше"></a><a href="#"><img src="pic.png" alt="больше"></a></li>
+                </ul>
+            </div>
+            <div class="found-content">
+                <div class="housing">
+                    <img src="hotel-pic.png" alt="hotel-pic">
+                    <h2>Amara resort & spa</h2>
+                    <span>Гостиница</span>
+                    <span>от 3500 р.</span>
+                    <a href="#" class="description"><span>Подробнее</span></a><a class="book" href="#"><span>Забронировать</span></a>
+                    <img src="four-stars.png" alt="four stars">
+                    <span>Рейтинг: 8,5</span>
+                </div>
+                <div  class="housing">
+                    <img src="motel-pic.png" alt="motel-pic">
+                    <h2>Desert quail inn</h2>
+                    <span>Мотель</span>
+                    <span>от 2000р.</span>
+                    <a href="#" class="description"><span>Подробнее</span></a><a class="book" href="#"><span>Забронировать</span></a>
+                    <img src="two-stars.png" alt="two stars">
+                    <span>Рейтинг: 8,9</span>
+                </div>
+                <div  class="housing">
+                    <img src="apartment-pic.png" alt="apartment-pic">
+                    <h2>Villas at poco diablo</h2>
+                    <span>Апартаменты</span>
+                    <span>от 4000р.</span>
+                    <a href="#" class="description"><span>Подробнее</span></a><a class="book" href="#"><span>Забронировать</span></a>
+                    <img src="three-stars.png" alt="three">
+                    <span>Рейтинг: 9,2</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-hashtag">
+                <span>#VISITSEDONA</span>
+            </div>
+            <div class="footer-socials">
+                <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+                <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+                <a class="social-btn social-btn-yb" href="#">Ютуб</a>
+            </div>
+            <div class="footer-copyright">
+                <img src="!!!" alt="website by HTML Academy">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
