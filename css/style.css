@@ -1,23 +1,25 @@
 body {
-    font-size:;
-    line-height:;
-    color:;
-    font-weight:;
-    font-family:;
+    font-size: 14px;
+    line-height: 1.8em;
+    color: #979797;
+    font-weight: normal;
+    font-family: "PT Sans", "sans-serif";
+    text-transform: uppercase;
 
 }
 
 h2 {
-    font-size:;
-    line-height:;
-    color:;
-    font-weight:;
-    font-family:;
+    font-size: 21px;
+    line-height: 1.2em;
+    color: #000000;
+    font-weight: bold;
+    font-family: "PT Sans", "sans-serif";
 }
 
-h1 {
-    font-size: 30px;
-    line-height: normal;
-    color: red;
-    font-weight: bold;
+h3 {
+    font-size: 12px;
+    line-height: 1.5em;
+    color: #000000;
+    font-weight: normal;
+    font-family: "PT Sans", "sans-srif";
 }
