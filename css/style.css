@@ -219,12 +219,14 @@ li:nth-child(5){
   min-height: 42px;
   margin-top: 54px;
   margin-left: 452px;
+
   background: #333777;
 }
 
 .map-head>p {
   width: 432px;
   margin-left: 384px;
+
   background: #333777;
 }
 
@@ -252,6 +254,7 @@ li:nth-child(5){
   width: 140px;
   margin-top: 52px;
   margin-left: 132px;
+
   outline: 2px solid green;
 }
 
@@ -261,6 +264,7 @@ li:nth-child(5){
   margin-left: 256px;
   margin-top: 37px;
   margin-bottom: 36px;
+
   outline: 2px solid green;
 }
 
@@ -269,5 +273,80 @@ li:nth-child(5){
   width: 198px;
   margin-top: 42px;
   margin-left: 228px;
+
   outline: 2px solid green;
+}
+
+.house-choice-form {
+  outline: 2px solid green;
+}
+
+.checkbox {
+  float: left;
+  width: 396px;
+  margin-left: 65px;
+  margin-top: 30px;
+  min-height: 160px;
+  outline: 2px solid red;
+}
+
+.day-price {
+  float: left;
+  width: 355px;
+  margin-left: 334px;
+  margin-top: 30px;
+  outline: 2px solid red;
+}
+
+.show-lodging-btn {
+  clear: both;
+}
+.found {
+  outline: 2px solid red;
+}
+
+.head-found {
+  outline: 2px solid green;
+}
+/* Эту дичь я перепишу */
+.head-found li:nth-child(2) {
+  display: inline-block;
+  margin-left: 51px;
+  margin-top: 36px;
+  outline: 2px solid red;
+}
+
+.head-found li:first-child {
+  display: inline-block;
+  margin-left: 78px;
+  margin-top: 26px;
+  outline: 2px solid red;
+}
+
+.head-found li:nth-child(4) {
+  display: inline-block;
+  margin-left: 51px;
+  margin-top: 36px;
+  outline: 2px solid red;
+}
+
+.head-found li:nth-child(5) {
+  display: inline-block;
+  margin-left: 51px;
+  margin-top: 36px;
+  outline: 2px solid red;
+}
+
+.head-found li:nth-child(3) {
+  display: inline-block;
+  margin-left: 51px;
+  margin-top: 36px;
+  outline: 2px solid red;
+}
+
+.head-found li:nth-child(6) {
+  display: inline-block;
+  margin-left: 400px;
+  margin-top: 36px;
+  outline: 2px solid red;
 }
