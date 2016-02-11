@@ -1,4 +1,8 @@
+html,
 body {
+    min-width: 1280px;
+    margin: 0;
+    padding: 0;
     font-size: 14px;
     line-height: 1.8em;
     color: #979797;
@@ -22,4 +26,248 @@ h3 {
     color: #000000;
     font-weight: normal;
     font-family: "PT Sans", "sans-srif";
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+    outline: 2px solid red;
+}
+
+.main-header {
+    width: 1200px;
+    min-height: 56px;
+
+    outline: 2px solid green;
+}
+
+.main-navigation {
+    width: 1056px;
+    margin-left: 72px;
+    min-height: 30px;
+
+    outline: 2px solid red;
+}
+
+li:first-child{
+  outline: 2px solid green;
+
+  float: left;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+li:nth-child(2){
+  outline: 2px solid green;
+
+  float: left;
+  margin-top: 20px;
+  margin-left: 147px;
+}
+
+li:nth-child(3){
+  outline: 2px solid green;
+
+  float: left;
+  margin-top: 20px;
+  margin-left: 121px;
+}
+
+li:nth-child(4){
+  outline: 2px solid green;
+
+  float: left;
+  margin-top: 20px;
+  margin-left: 130px;
+}
+
+li:nth-child(5){
+  outline: 2px solid green;
+
+  float: left;
+  margin-top: 20px;
+  margin-left: 162px;
+}
+
+.main {
+  outline: 2px solid green;
+}
+
+.welcome-logo {
+  margin-top: 78px;
+  margin-left: 368px;
+
+  outline: 2px solid red;
+}
+
+.main>h2 {
+  margin-left: 380px;
+  width: 432px;
+
+  outline: 2px solid red;
+}
+
+.main>p {
+  margin-left: 356px;
+  width: 492px;
+
+  outline: 2px solid red;
+}
+
+.resons-recomndations {
+  outline: 2px solid red;
+}
+
+.first-reason {
+  float: left;
+  width: 400px;
+  min-height: 256px;
+
+  outline: 2px solid green;
+}
+
+.recomendations {
+  outline: 2px solid red;
+}
+
+.first-recomendation {
+  float: left;
+  width: 254px;
+  margin-left: 74px;
+
+  outline: 2px solid green;
+}
+
+.second-recomendation {
+  float: left;
+  width: 254px;
+  margin-left: 135px;
+
+  outline: 2px solid green;
+}
+
+.third-recomendation {
+  float: left;
+  width: 254px;
+  margin-left: 151px;
+
+  outline: 2px solid green;
+}
+
+.second-reason-pic {
+  float: left;
+}
+
+.second-reason {
+  float: left;
+  width: 400px;
+  min-height: 256px;
+
+  outline: 2px solid green;
+}
+
+.other-reasons {
+
+  outline: 2px solid red;
+}
+
+.third-reason {
+  float: left;
+  width: 210px;
+  margin-left: 92px;
+  min-height: 142px;
+  outline: 2px solid green;
+}
+
+.fourth-reason {
+  float: left;
+  width: 262px;
+  margin-left: 166px;
+  min-height: 142px;
+  outline: 2px solid green;
+}
+.fifth-reason {
+  float: left;
+  width: 262px;
+  margin-left: 140px;
+  min-height: 142px;
+  outline: 2px solid green;
+}
+
+.hotel-map{
+  min-height: 770px;
+  outline: 2px solid green;;
+}
+
+.map-head {
+  padding: 1px;
+
+  outline: 2px solid green;
+
+}
+
+.map-head>h2 {
+  width: 302px;
+  min-height: 42px;
+  margin-top: 54px;
+  margin-left: 452px;
+  background: #333777;
+}
+
+.map-head>p {
+  width: 432px;
+  margin-left: 384px;
+  background: #333777;
+}
+
+.form-head>h2 {
+  width: 568px;
+  margin-top: 52px;
+  margin-left: 317px;
+
+  background: red;
+}
+
+.form {
+  width: 568px;
+  margin-left: 316px;
+
+  outline: 2px solid red;
+}
+
+.main-footer {
+  outline: 2px solid red;
+}
+
+.footer-hashtag {
+  float: left;
+  width: 140px;
+  margin-top: 52px;
+  margin-left: 132px;
+  outline: 2px solid green;
+}
+
+.footer-socials {
+  float: left;
+  width: 150px;
+  margin-left: 256px;
+  margin-top: 37px;
+  margin-bottom: 36px;
+  outline: 2px solid green;
+}
+
+.footer-copyright {
+  float: left;
+  width: 198px;
+  margin-top: 42px;
+  margin-left: 228px;
+  outline: 2px solid green;
 }
