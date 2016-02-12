@@ -3,6 +3,7 @@ body {
     min-width: 1280px;
     margin: 0;
     padding: 0;
+
     font-size: 14px;
     line-height: 1.8em;
     color: #979797;
@@ -13,88 +14,89 @@ body {
 }
 
 h2 {
-    font-size: 21px;
-    line-height: 1.2em;
-    color: #000000;
-    font-weight: bold;
-    font-family: "PT Sans", "sans-serif";
+  font-size: 21px;
+  line-height: 1.2em;
+  color: #000000;
+  font-weight: bold;
+  font-family: "PT Sans", "sans-serif";
 }
 
-h3 {
-    font-size: 12px;
-    line-height: 1.5em;
-    color: #000000;
-    font-weight: normal;
-    font-family: "PT Sans", "sans-srif";
+h3{
+   font-size: 12px;
+   line-height: 1.5em;
+   color: #000000;
+   font-weight: normal;
+   font-family: "PT Sans", "sans-srif";
 }
 
 .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 10px;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
 
-    outline: 2px solid red;
+  outline: 2px solid red;
 }
 
 .main-header {
-    width: 1200px;
-    min-height: 56px;
+  width: 1200px;
+  min-height: 56px;
 
-    outline: 2px solid green;
+  outline: 2px solid green;
 }
 
 .main-navigation {
-    width: 1056px;
-    margin-left: 72px;
-    min-height: 30px;
+  width: 1056px;
+  margin-left: 72px;
+  min-height: 30px;
 
-    outline: 2px solid red;
+  outline: 2px solid red;
 }
 
 li:first-child{
-  outline: 2px solid green;
-
   float: left;
   margin-top: 20px;
   margin-left: 0px;
+
+  outline: 2px solid green;
 }
 
 li:nth-child(2){
-  outline: 2px solid green;
-
   float: left;
   margin-top: 20px;
   margin-left: 147px;
+
+  outline: 2px solid green;
 }
 
 li:nth-child(3){
-  outline: 2px solid green;
-
   float: left;
   margin-top: 20px;
   margin-left: 121px;
+
+  outline: 2px solid green;
+
 }
 
 li:nth-child(4){
-  outline: 2px solid green;
-
   float: left;
   margin-top: 20px;
   margin-left: 130px;
+
+  outline: 2px solid green;
 }
 
 li:nth-child(5){
-  outline: 2px solid green;
-
   float: left;
   margin-top: 20px;
   margin-left: 162px;
+
+  outline: 2px solid green;
 }
 
 .main {
@@ -175,7 +177,6 @@ li:nth-child(5){
 }
 
 .other-reasons {
-
   outline: 2px solid red;
 }
 
@@ -184,6 +185,7 @@ li:nth-child(5){
   width: 210px;
   margin-left: 92px;
   min-height: 142px;
+
   outline: 2px solid green;
 }
 
@@ -192,6 +194,7 @@ li:nth-child(5){
   width: 262px;
   margin-left: 166px;
   min-height: 142px;
+
   outline: 2px solid green;
 }
 .fifth-reason {
@@ -199,11 +202,13 @@ li:nth-child(5){
   width: 262px;
   margin-left: 140px;
   min-height: 142px;
+
   outline: 2px solid green;
 }
 
 .hotel-map{
   min-height: 770px;
+
   outline: 2px solid green;;
 }
 
@@ -285,8 +290,10 @@ li:nth-child(5){
   float: left;
   width: 396px;
   margin-left: 65px;
-  margin-top: 30px;
-  min-height: 160px;
+  margin-top: 28px;
+  margin-bottom: 32px;
+  min-height: 154px;
+
   outline: 2px solid red;
 }
 
@@ -298,9 +305,6 @@ li:nth-child(5){
   outline: 2px solid red;
 }
 
-.show-lodging-btn {
-  clear: both;
-}
 .found {
   outline: 2px solid red;
 }
@@ -308,11 +312,12 @@ li:nth-child(5){
 .head-found {
   outline: 2px solid green;
 }
-/* Эту дичь я перепишу */
+
 .head-found li:nth-child(2) {
   display: inline-block;
   margin-left: 51px;
   margin-top: 36px;
+
   outline: 2px solid red;
 }
 
@@ -320,6 +325,7 @@ li:nth-child(5){
   display: inline-block;
   margin-left: 78px;
   margin-top: 26px;
+
   outline: 2px solid red;
 }
 
@@ -327,6 +333,7 @@ li:nth-child(5){
   display: inline-block;
   margin-left: 51px;
   margin-top: 36px;
+
   outline: 2px solid red;
 }
 
@@ -334,6 +341,7 @@ li:nth-child(5){
   display: inline-block;
   margin-left: 51px;
   margin-top: 36px;
+
   outline: 2px solid red;
 }
 
@@ -341,6 +349,7 @@ li:nth-child(5){
   display: inline-block;
   margin-left: 51px;
   margin-top: 36px;
+
   outline: 2px solid red;
 }
 
@@ -348,5 +357,26 @@ li:nth-child(5){
   display: inline-block;
   margin-left: 400px;
   margin-top: 36px;
+
   outline: 2px solid red;
+}
+
+.show-lodging-btn {
+  clear: both;
+  width: 140px;
+  margin-top: 20px;
+  margin-left: 430px;
+}
+
+.housing {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 74px;
+
+  outline: 2px solid red;
+}
+
+.housing img {
+  float:left;
+  margin-right: 32px;
 }
