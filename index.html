@@ -3,7 +3,8 @@
   	<head>
 	  	<meta charset="UTF-8">
 	  	<title>HTML Academy: Седона</title>
-	  	<link href="./css/style.css" rel="stylesheet">
+      <link rel="stylesheet" href="./css/normalize.css">
+	  	<link rel="stylesheet" href="./css/style.css">
  	  </head>
   	<body>
 		  <header class="main-header container">
@@ -11,16 +12,18 @@
 			  	<ul>
 				  	<li><a href="#">Информация</a></li>
 				  	<li><a href="#">Фото и видео</a></li>
-				  	<li><img src="./img/sedona-index-city-of-sedona.jpg" width="138" height="70" alt="Sedona"></li><!--Позиционирование!!! Или нет?-->
+				  	<li><img src="./img/sedona-index-city-of-sedona.jpg" alt="Sedona"></li><!--width="138" height="70"-->
 				  	<li><a href="#">Карта штата</a></li>
 				  	<li><a href="#">Гостиницы</a></li>
 			  	</ul>
 		  	</nav>
+        <div class="bg clearfix">
+            <div class="welcome-logo"></div>
+        </div>
+        <h2 class="deserv-more">Седона - небольшой городок в аризоне, заслуживающий большего!</h2><!--как если не br?-->
+        <p>Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
 	  	</header>
 	  	<main class="main container">
-		  	<img src="./img/sedona-index-welcome.png" class="welcome-logo" width="458" height="352" alt="Welcome to the gorgeous Sedona">
-		  	<h2>Седона - небольшой городок в аризоне, заслуживающий большего!</h2><!--как если не br?-->
-		  	<p>Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
 		  	<div class="resons-recomndations">
 			  	<div class="first-reason">
 				  	<h2>Настоящий городок</h2>
