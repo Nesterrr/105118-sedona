@@ -10,7 +10,6 @@ body {
     font-weight: normal;
     font-family: "PT Sans", "sans-serif";
     text-transform: uppercase;
-
 }
 
 h2 {
@@ -18,7 +17,6 @@ h2 {
   line-height: 1.2em;
   color: #000000;
   font-weight: bold;
-  font-family: "PT Sans", "sans-serif";
 }
 
 h3{
@@ -26,7 +24,6 @@ h3{
    line-height: 1.5em;
    color: #000000;
    font-weight: normal;
-   font-family: "PT Sans", "sans-srif";
 }
 
 .clearfix::after {
@@ -40,87 +37,78 @@ h3{
   margin: 0 auto;
   padding: 0 10px;
 
-  outline: 2px solid red;
+  outline: 1px solid red;
 }
 
 .main-header {
   width: 1200px;
-  min-height: 56px;
-
+  text-align:center;
   outline: 2px solid green;
 }
 
 .main-navigation {
-  width: 1056px;
-  margin-left: 72px;
-  min-height: 30px;
-
+  width: 1200px;
+  margin: 0;
+  padding: 0;
   outline: 2px solid red;
 }
 
-li:first-child{
-  float: left;
-  margin-top: 20px;
-  margin-left: 0px;
-
-  outline: 2px solid green;
+.main-navigation ul{
+  margin: 0;
+  padding: 0;
 }
 
-li:nth-child(2){
+.main-navigation li{
   float: left;
-  margin-top: 20px;
-  margin-left: 147px;
+  width: 20%;
+  padding-top: 14px;
+  padding-bottom: 16px;
+  list-style: none;
+  text-align: center;
 
-  outline: 2px solid green;
-}
-
-li:nth-child(3){
-  float: left;
-  margin-top: 20px;
-  margin-left: 121px;
-
-  outline: 2px solid green;
+  outline: 2px solid black;
 
 }
 
-li:nth-child(4){
-  float: left;
-  margin-top: 20px;
-  margin-left: 130px;
+.main-navigation li:nth-child(3){
+  width: 20%;
+  padding-top: 0;
+  padding-bottom: 0;
+  list-style: none;
 
-  outline: 2px solid green;
-}
-
-li:nth-child(5){
-  float: left;
-  margin-top: 20px;
-  margin-left: 162px;
-
-  outline: 2px solid green;
 }
 
 .main {
-  outline: 2px solid green;
+  outline: 4px solid green;
 }
-
+.bg {
+  width: 1200px;
+  height: 508px;
+  background-image: url(../img/sedona-index-welcome-bg.jpg);
+  background-position: 0px -57px;
+  outline: 4px solid green;
+  border: 1px solid black;/*Как убрать костыль?*/
+}
 .welcome-logo {
-  margin-top: 78px;
-  margin-left: 368px;
-
+  margin-top: 76px;
+  margin-left: 371px;
+  background-image: url(../img/sedona-index-welcome.png);
+  width: 458px;
+  height: 352px;
   outline: 2px solid red;
 }
 
-.main>h2 {
-  margin-left: 380px;
-  width: 432px;
-
+.main-header h2{
+  display: inline-block;
+  width: 440px;
+  text-align: center;
+  margin-top: 61px;
   outline: 2px solid red;
 }
 
-.main>p {
-  margin-left: 356px;
-  width: 492px;
-
+.main-header p {
+  width: 1200px;
+  text-align: center;
   outline: 2px solid red;
 }
 
