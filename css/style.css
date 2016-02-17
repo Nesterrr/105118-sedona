@@ -10,7 +10,6 @@ body {
     font-weight: normal;
     font-family: "PT Sans", "sans-serif";
     text-transform: uppercase;
-
 }
 
 h2 {
@@ -58,14 +57,14 @@ h3{
   outline: 2px solid red;
 }
 
-li:first-child{
+li:first-child{/* .main li*/
   float: left;
   margin-top: 20px;
   margin-left: 0px;
 
   outline: 2px solid green;
 }
-
+/*Далее убираем*/
 li:nth-child(2){
   float: left;
   margin-top: 20px;
@@ -111,10 +110,9 @@ li:nth-child(5){
 }
 
 .main>h2 {
-  margin-left: 380px;
-  width: 432px;
+  text-align: center;
 
-  outline: 2px solid red;
+  outline: 10px solid red;
 }
 
 .main>p {
