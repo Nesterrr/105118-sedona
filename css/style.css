@@ -17,7 +17,6 @@ h2 {
   line-height: 1.2em;
   color: #000000;
   font-weight: bold;
-  font-family: "PT Sans", "sans-serif";
 }
 
 h3{
@@ -25,7 +24,6 @@ h3{
    line-height: 1.5em;
    color: #000000;
    font-weight: normal;
-   font-family: "PT Sans", "sans-srif";
 }
 
 .clearfix::after {
@@ -39,17 +37,19 @@ h3{
   margin: 0 auto;
   padding: 0 10px;
 
-  outline: 2px solid red;
+  outline: 1px solid red;
 }
 
 .main-header {
   width: 1200px;
-  min-height: 56px;
+  padding-bottom: 34px;
+  text-align: center;
 
   outline: 2px solid green;
 }
 
 .main-navigation {
+<<<<<<< HEAD
   width: 1056px;
   margin-left: 72px;
   min-height: 30px;
@@ -71,187 +71,309 @@ li:nth-child(2){
   margin-left: 147px;
 
   outline: 2px solid green;
+=======
+  width: 1200px;
+  margin: 0;
+  padding: 0;
 }
 
-li:nth-child(3){
-  float: left;
-  margin-top: 20px;
-  margin-left: 121px;
+.main-navigation ul{
+  margin: 0;
+  padding: 0;
+>>>>>>> origin/master
+}
 
-  outline: 2px solid green;
+.main-navigation li{
+  float: left;
+  width: 20%;
+  padding-top: 14px;
+  padding-bottom: 16px;
+  list-style: none;
+  text-align: center;
+
+  outline: 2px solid black;
 
 }
 
-li:nth-child(4){
-  float: left;
-  margin-top: 20px;
-  margin-left: 130px;
+.main-navigation li:nth-child(3){
+  width: 20%;
+  padding-top: 0;
+  padding-bottom: 0;
+  list-style: none;
 
-  outline: 2px solid green;
-}
-
-li:nth-child(5){
-  float: left;
-  margin-top: 20px;
-  margin-left: 162px;
-
-  outline: 2px solid green;
 }
 
 .main {
-  outline: 2px solid green;
+  outline: 4px solid green;
 }
+.bg {
+  width: 1200px;
+  height: 508px;
+  background-image: url(../img/sedona-index-welcome-bg.jpg);
+  background-position: 0px -57px;
 
+  border: 1px solid black;/*Как убрать костыль?*/
+}
 .welcome-logo {
-  margin-top: 78px;
-  margin-left: 368px;
-
-  outline: 2px solid red;
+  margin-top: 76px;
+  margin-left: 371px;
+  background-image: url(../img/sedona-index-welcome.png);
+  width: 458px;
+  height: 352px;
 }
 
+<<<<<<< HEAD
 .main>h2 {
   text-align: center;
 
   outline: 10px solid red;
+=======
+.main-header h2{
+  display: inline-block;
+  width: 440px;
+  text-align: center;
+  margin-top: 61px;
+>>>>>>> origin/master
 }
 
-.main>p {
-  margin-left: 356px;
-  width: 492px;
-
-  outline: 2px solid red;
+.main-header p {
+  width: 1200px;
 }
-
+/******************************************************************/
 .resons-recomndations {
-  outline: 2px solid red;
+  text-align: center;
 }
 
+.resons-recomndations h2,p,span {
+  text-align: center;
+}
 .first-reason {
   float: left;
-  width: 400px;
+  width: 33.33%;
+  padding: 0;
+
   min-height: 256px;
-
-  outline: 2px solid green;
+  background: #81b3d2;
+  color: #ffffff;
 }
+.first-reason h2{
+  display: inline-block;
+  width: 122px;
+  text-align: center;
+  padding-top: 35px;
 
+  color: #ffffff;
+}
+.first-reason span{
+  display: block;
+  text-align: center;
+}
+/******************************************************************/
 .recomendations {
-  outline: 2px solid red;
+
 }
 
 .first-recomendation {
   float: left;
-  width: 254px;
-  margin-left: 74px;
+  width: 33.33%;
+  background-image: url(../img/sedona-index-housing.png);
+  background-repeat: no-repeat;
+  background-position: 50% 52px;
+  min-height: 322px;
 
-  outline: 2px solid green;
+
 }
-
+.recomendations h2{
+  margin-top: 151px;
+}
+.recomendations p{
+  display: inline-block;
+  margin: 0;
+  width: 250px;
+  text-align: center;
+}
 .second-recomendation {
   float: left;
-  width: 254px;
-  margin-left: 135px;
+  width: 33.33%;
+  background-image: url(../img/sedona-index-food.png);
+  background-repeat: no-repeat;
+  background-position: 50% 52px;
+  min-height: 322px;
 
-  outline: 2px solid green;
+
 }
 
 .third-recomendation {
   float: left;
-  width: 254px;
-  margin-left: 151px;
+  width: 33.33%;
+  background-image: url(../img/sedona-index-souvenires.png);
+  background-repeat: no-repeat;
+  background-position: 50% 49px;
+  min-height: 322px;
 
-  outline: 2px solid green;
+
 }
-
+/*********************************************************/
 .second-reason-pic {
   float: left;
 }
 
 .second-reason {
   float: left;
-  width: 400px;
+  width: 33.33%;
+  padding: 0;
   min-height: 256px;
 
-  outline: 2px solid green;
+  background: #81b3d2;
+  color: #ffffff;
 }
-
+.second-reason h2{
+  display: inline-block;
+  width: 170px;
+  text-align: center;
+  padding-top: 35px;
+  color: #ffffff;
+}
+.second-reason span{
+  display: block;
+  text-align: center;
+}
 .other-reasons {
-  outline: 2px solid red;
+  background: #eeeeee;
 }
-
+/*********************************************************************/
 .third-reason {
   float: left;
-  width: 210px;
-  margin-left: 92px;
-  min-height: 142px;
-
-  outline: 2px solid green;
+  width: 33.33%;
+  min-height: 256px;
+  text-align: center;
 }
 
+.third-reason h2{
+  display: inline-block;
+  width: 200px;
+  margin-top: 46px;
+}
+.third-reason span{
+  display: block;
+  text-align: center;
+}
+.third-reason p{
+  display: inline-block;
+  width: 200px;
+}
+/********************************************/
 .fourth-reason {
   float: left;
-  width: 262px;
-  margin-left: 166px;
-  min-height: 142px;
+  width: 33.33%;
+  min-height: 256px;
 
-  outline: 2px solid green;
+
 }
+.fourth-reason h2{
+  display: inline-block;
+  width: 150px;
+  margin-top: 46px;
+}
+.fourth-reason span{
+  display: block;
+  text-align: center;
+}
+.fourth-reason p{
+  display: inline-block;
+  width: 220px;
+}
+/********************************************/
 .fifth-reason {
   float: left;
-  width: 262px;
-  margin-left: 140px;
-  min-height: 142px;
-
-  outline: 2px solid green;
+  width: 33.33%;
+  min-height: 256px;
 }
-
+.fifth-reason h2{
+  display: inline-block;
+  width: 150px;
+  margin-top: 46px;
+}
+.fifth-reason span{
+  display: block;
+  text-align: center;
+}
+.fifth-reason p{
+  display: inline-block;
+  width: 210px;
+}
+/************************************************************************/
+/************************************************************************/
 .hotel-map{
-  min-height: 770px;
+  margin: 0;
+  padding: 0;
 
-  outline: 2px solid green;;
 }
 
 .map-head {
-  padding: 1px;
-
-  outline: 2px solid green;
-
+  text-align: center;
+  padding-bottom: 0;
+  margin: 0;
 }
 
 .map-head>h2 {
-  width: 302px;
-  min-height: 42px;
-  margin-top: 54px;
-  margin-left: 452px;
-
-  background: #333777;
+  width: 100%;
+  margin: 0;
+  padding-top: 49px;
+  font-size: 30px;
 }
 
 .map-head>p {
-  width: 432px;
-  margin-left: 384px;
+  display: inline-block;
+  text-align:center;
+  width: 400px;
+  padding-top: 10px;
+  padding-bottom: 32px;
 
-  background: #333777;
+
+
 }
-
-.form-head>h2 {
-  width: 568px;
-  margin-top: 52px;
-  margin-left: 317px;
-
-  background: red;
-}
+/************************************************************************/
 
 .form {
   width: 568px;
-  margin-left: 316px;
-
-  outline: 2px solid red;
+  background: white;
+  margin:0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+.form ul{
+  margin: 0;
+  list-style: none;
+}
+.form li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.map {
+  margin: 0;
+  padding:0;
+  min-height:593px;
+  background-image: url(../img/sedona-index-map.jpg);
+}
+.form-head>h2 {
+  display: inline-block;
+  text-align:center;
+  width: 568px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0;
+
+  color: white;
+  background: #766357;
+}
+
+
+/************************************************************************---FOOTER--- */
 .main-footer {
   outline: 2px solid red;
 }
-
 .footer-hashtag {
   float: left;
   width: 140px;

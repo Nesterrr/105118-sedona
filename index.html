@@ -3,7 +3,9 @@
   	<head>
 	  	<meta charset="UTF-8">
 	  	<title>HTML Academy: Седона</title>
-	  	<link href="./css/style.css" rel="stylesheet">
+      <link rel="stylesheet" href="./css/normalize.css">
+      <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	  	<link rel="stylesheet" href="./css/style.css">
  	  </head>
   	<body>
 		  <header class="main-header container">
@@ -11,17 +13,23 @@
 			  	<ul>
 				  	<li><a href="#">Информация</a></li>
 				  	<li><a href="#">Фото и видео</a></li>
+<<<<<<< HEAD
 				  	<li><img src="./img/sedona-index-city-of-sedona.jpg" width="138" height="70" alt="Sedona"></li><!--li class="logo"-->
+=======
+				  	<li><img src="./img/sedona-index-city-of-sedona.jpg" alt="Sedona"></li><!--width="138" height="70"-->
+>>>>>>> origin/master
 				  	<li><a href="#">Карта штата</a></li>
 				  	<li><a href="#">Гостиницы</a></li>
 			  	</ul>
 		  	</nav>
+        <div class="bg clearfix">
+            <div class="welcome-logo"></div>
+        </div>
+        <h2 class="deserv-more">Седона - небольшой городок в аризоне, заслуживающий большего!</h2>
+        <p>Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
 	  	</header>
 	  	<main class="main container">
-		  	<img src="./img/sedona-index-welcome.png" class="welcome-logo" width="458" height="352" alt="Welcome to the gorgeous Sedona">
-		  	<h2>Седона - небольшой городок в аризоне, заслуживающий большего!</h2><!--как если не br?-->
-		  	<p>Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
-		  	<div class="resons-recomndations">
+		  	<div class="resons-recomndations clearfix">
 			  	<div class="first-reason">
 				  	<h2>Настоящий городок</h2>
 				  	<span>№1</span>
@@ -30,17 +38,17 @@
 			  	<img src="./img/sedona-index-reason-1-pic.jpg" width="800" height="256"  alt="Sedonapic">
 			  	<div class="recomendations clearfix">
 				    <div class="first-recomendation">
-					    <img src="./img/sedona-index-housing.png" width="75" height="72"  alt="motel">
+					    <!--<img src="./img/sedona-index-housing.png" width="75" height="72"  alt="motel">-->
 					    <h2>Жилье</h2>
 					    <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
 				    </div>
 				  <div  class="second-recomendation">
-					  <img src="./img/sedona-index-food.png" width="74" height="70"  alt="burger">
+					   <!--<img src="./img/sedona-index-food.png" width="74" height="70"  alt="burger">-->
 					  <h2>Еда</h2>
 					  <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
 				  </div>
 				  <div  class="third-recomendation">
-					  <img src="./img/sedona-index-souvenires.png" width="64" height="76"  alt="souvenir">
+					   <!--<img src="./img/sedona-index-souvenires.png" width="64" height="76"  alt="souvenir">-->
 					  <h2>Сувениры</h2>
 					  <p>Не только китайского,<br>но и местного производства!</p>
 				  </div>
@@ -76,7 +84,8 @@
 				<div class="form-head">
 					<h2>Поиск гостиницы в седоне</h2>
 				</div>
-				</div>
+			</div>
+      <div class="map">
 			  	<div class="form clearfix">
 				  	<form action="#" method="post">
 					  	<ul>
@@ -97,6 +106,7 @@
 					  </form>
 				  </div>
 			  </div>
+
 		</main>
 	  	<footer class="main-footer container clearfix">
 				<div class="footer-hashtag">
