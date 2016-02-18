@@ -11,7 +11,50 @@ body {
     font-family: "PT Sans", "sans-serif";
     text-transform: uppercase;
 }
+/*********************************************************FONTS***************/
 
+
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+
+  font-family: "symbols-sedona";
+  src: url("../fonts/symbols-sedona.woff") format("woff"),
+       url("../fonts/symbols-sedona.woff2") format("woff2");
+}
+
+[class^="icon-"]::before,
+[class*=" icon-"]::before {
+  display: inline-block;
+  width: 1em;
+  margin-right: 0.2em;
+  margin-left: 0.2em;
+
+  font-weight: normal;
+  line-height: 1em;
+  font-family: "symbols-sedona";
+  text-align: center;
+  text-transform: none;
+  text-decoration: inherit;
+  font-style: normal;
+  font-variant: normal;
+
+  speak: none;
+}
+
+.icon-facebook::before { content: "\66"; } /* "f" */
+.icon-twitter::before { content: "\74"; } /* "t" */
+.icon-up-dir::before { content: "\25b2"; } /* "▲" */
+.icon-down-dir::before { content: "\25bc"; } /* "▼" */
+.icon-star::before { content: "\2605"; } /* "★" */
+.icon-check-off::before { content: "\2610"; } /* "☐" */
+.icon-check-on::before { content: "\2611"; } /* "☑" */
+.icon-calendar::before { content: "\e800"; } /* "" */
+.icon-plus::before { content: "\e801"; } /* "" */
+.icon-minus::before { content: "\e802"; } /* "" */
+.icon-youtube::before { content: "\f39e"; } /* "" */
+
+/********************************************************************************/
 h2 {
   font-size: 21px;
   line-height: 1.2em;
@@ -37,7 +80,7 @@ h3{
   margin: 0 auto;
   padding: 0 10px;
 
-  outline: 1px solid red;
+
 }
 
 .main-header {
@@ -45,7 +88,7 @@ h3{
   padding-bottom: 34px;
   text-align: center;
 
-  outline: 2px solid green;
+
 }
 
 .main-navigation {
@@ -66,11 +109,24 @@ h3{
   padding-bottom: 16px;
   list-style: none;
   text-align: center;
-
-  outline: 2px solid black;
+}
+.main-navigation a:hover{
+   color: #81b3d2;
+}
+.main-navigation a:active{
+  color: #766357;
+}
+.main-navigation a{
+   font-size: 14px;
+    line-height: 1.8em;
+    color: #979797;
+    font-weight: bold;
+    font-family: "PT Sans", "sans-serif";
+    text-transform: uppercase;
+    color: #000000;
+  text-decoration: none;
 
 }
-
 .main-navigation li:nth-child(3){
   width: 20%;
   padding-top: 0;
@@ -80,7 +136,7 @@ h3{
 }
 
 .main {
-  outline: 4px solid green;
+
 }
 .bg {
   width: 1200px;
@@ -88,7 +144,7 @@ h3{
   background-image: url(../img/sedona-index-welcome-bg.jpg);
   background-position: 0px -57px;
 
-  border: 1px solid black;/*Как убрать костыль?*/
+  border: 1px solid white;/*Как убрать костыль?*/
 }
 .welcome-logo {
   margin-top: 76px;
@@ -305,6 +361,7 @@ h3{
 /************************************************************************/
 
 .form {
+  /******************************************/
   width: 568px;
   background: white;
   margin:0;
@@ -323,7 +380,8 @@ h3{
 .map {
   margin: 0;
   padding:0;
-  min-height:593px;
+  min-height:473px;
+  background-color: #b2b2b2;
   background-image: url(../img/sedona-index-map.jpg);
 }
 .form-head>h2 {
@@ -341,38 +399,40 @@ h3{
 
 /************************************************************************---FOOTER--- */
 .main-footer {
-  outline: 2px solid red;
+  text-align: center;
 }
 .footer-hashtag {
   float: left;
-  width: 140px;
-  margin-top: 52px;
-  margin-left: 132px;
+  width: 33.33%;
+  margin-top: 46px;
+  font-weight:bold;
+  font-style: "PT Sans", "sans-serif";
+  font-size: 21px;
+  color: #000000;
 
-  outline: 2px solid green;
+
 }
 
 .footer-socials {
   float: left;
-  width: 150px;
-  margin-left: 256px;
-  margin-top: 37px;
+  width: 33.33%;
+  margin-top: 35px;
   margin-bottom: 36px;
 
-  outline: 2px solid green;
+
 }
 
 .footer-copyright {
   float: left;
-  width: 198px;
+  width: 33.33%;
   margin-top: 42px;
-  margin-left: 228px;
 
-  outline: 2px solid green;
+
+
 }
 
 .house-choice-form {
-  outline: 2px solid green;
+
 }
 
 .checkbox {
@@ -469,3 +529,139 @@ h3{
   float:left;
   margin-right: 32px;
 }
+/******************************************************/
+.form .search-btn {
+  display: block;
+  width: 458px;
+
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top:32px;
+  margin-left:15px;
+  margin-bottom:15px;
+
+  font-weight:bold;
+  font-style: "PT Sans", "sans-serif";
+  font-size: 21px;
+  line-height: 1.3em;
+  text-transform: uppercase;
+
+  background-color: #81b3d2;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+}
+.form{
+  padding-top:45px;
+  padding-bottom: 30px;
+}
+.form input, label{
+  margin-left: 15px;
+  font-weight:bold;
+  font-style: "PT Sans", "sans-serif";
+  font-size: 14px;
+  line-height: 1.3em;
+  color: #000000;
+
+  background: #f2f2f2;
+  border: none;
+  outline: none;
+}
+
+.input {
+  padding-top:11px;
+  padding-bottom:11px;
+  padding-left: 10px;
+  width: 346px;
+}
+
+.input-age {
+  display: inline-block;
+  padding-top:11px;
+  padding-bottom:11px;
+  margin-top: 10px;
+  width: 114px;
+  text-align:center;
+}
+
+/*************************** HOVER ***************************************/
+
+.search-btn:hover {
+  background-color: #669ec0;
+}
+.search-btn:active{
+  color: #88b6d1;
+}
+
+
+.form-head>h2:active{
+  color: #857871;
+}
+
+.form-head>h2:hover{
+  background-color: #604e43;
+}
+
+.footer-socials a{
+    text-decoration: none;
+}
+
+.footer-socials {
+  font-size: 0;
+  color: #ffffff;
+}
+
+.icon-facebook {
+  font-size: 19px;
+  display: inline-block;
+  margin-left:6px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left:10px;
+  padding-right:10px;
+  background-color: #81b3d2;
+
+}
+.icon-twitter{display: inline-block;
+  margin-left:6px;
+  font-size: 19px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left:10px;
+  padding-right: 10px;
+  background-color: #81b3d2;
+
+}
+.icon-youtube{display: inline-block;
+  margin-left:6px;
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  padding-left:7px;
+  padding-right: 8px;
+  background-color: #81b3d2;
+}
+.icon-facebook:hover{
+background-color: #669ec0;
+}
+.icon-youtube:hover{
+background-color: #669ec0;
+}
+
+.icon-twitter:hover{
+background-color: #669ec0;
+}
+.icon-facebook:active{
+color: #88b6d1;
+}
+.icon-youtube:active{
+color: #88b6d1;
+}
+
+.icon-twitter:active{
+color: #88b6d1;
+}
+
