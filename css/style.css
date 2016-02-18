@@ -49,29 +49,6 @@ h3{
 }
 
 .main-navigation {
-<<<<<<< HEAD
-  width: 1056px;
-  margin-left: 72px;
-  min-height: 30px;
-
-  outline: 2px solid red;
-}
-
-li:first-child{/* .main li*/
-  float: left;
-  margin-top: 20px;
-  margin-left: 0px;
-
-  outline: 2px solid green;
-}
-/*Далее убираем*/
-li:nth-child(2){
-  float: left;
-  margin-top: 20px;
-  margin-left: 147px;
-
-  outline: 2px solid green;
-=======
   width: 1200px;
   margin: 0;
   padding: 0;
@@ -80,7 +57,6 @@ li:nth-child(2){
 .main-navigation ul{
   margin: 0;
   padding: 0;
->>>>>>> origin/master
 }
 
 .main-navigation li{
@@ -122,18 +98,11 @@ li:nth-child(2){
   height: 352px;
 }
 
-<<<<<<< HEAD
-.main>h2 {
-  text-align: center;
-
-  outline: 10px solid red;
-=======
 .main-header h2{
   display: inline-block;
   width: 440px;
   text-align: center;
   margin-top: 61px;
->>>>>>> origin/master
 }
 
 .main-header p {
