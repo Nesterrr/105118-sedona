@@ -82,13 +82,13 @@ h3{
 
 
 }
+/*************************************************************** MAIN ***************/
 
+/*************************** header  **********************/
 .main-header {
   width: 1200px;
   padding-bottom: 34px;
   text-align: center;
-
-
 }
 
 .main-navigation {
@@ -97,12 +97,12 @@ h3{
   padding: 0;
 }
 
-.main-navigation ul{
+.main-navigation ul {
   margin: 0;
   padding: 0;
 }
 
-.main-navigation li{
+.main-navigation li {
   float: left;
   width: 20%;
   padding-top: 14px;
@@ -110,61 +110,66 @@ h3{
   list-style: none;
   text-align: center;
 }
+
 .main-navigation a:hover{
    color: #81b3d2;
 }
+
 .main-navigation a:active{
   color: #766357;
 }
-.main-navigation a{
-   font-size: 14px;
-    line-height: 1.8em;
-    color: #979797;
-    font-weight: bold;
-    font-family: "PT Sans", "sans-serif";
-    text-transform: uppercase;
-    color: #000000;
-  text-decoration: none;
 
+.main-navigation a{
+  font-size: 14px;
+  line-height: 1.8em;
+  font-weight: bold;
+  font-family: "PT Sans", "sans-serif";
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
 }
+
 .main-navigation li:nth-child(3){
   width: 20%;
   padding-top: 0;
   padding-bottom: 0;
+
   list-style: none;
-
 }
 
-.main {
-
-}
 .bg {
   width: 1200px;
   height: 508px;
+
   background-image: url(../img/sedona-index-welcome-bg.jpg);
   background-position: 0px -57px;
 
   border: 1px solid white;/*Как убрать костыль?*/
 }
+
 .welcome-logo {
-  margin-top: 76px;
-  margin-left: 371px;
-  background-image: url(../img/sedona-index-welcome.png);
   width: 458px;
   height: 352px;
+  margin-top: 76px;
+  margin-left: 371px;
+
+  background-image: url(../img/sedona-index-welcome.png);
 }
 
 .main-header h2{
   display: inline-block;
+
   width: 440px;
-  text-align: center;
   margin-top: 61px;
+
+  text-align: center;
 }
 
 .main-header p {
   width: 1200px;
 }
-/******************************************************************/
+/************************** MAIN ********************************/
+
 .resons-recomndations {
   text-align: center;
 }
@@ -172,73 +177,86 @@ h3{
 .resons-recomndations h2,p,span {
   text-align: center;
 }
+/************** first reason ****************/
 .first-reason {
   float: left;
+
   width: 33.33%;
   padding: 0;
 
   min-height: 256px;
+
   background: #81b3d2;
   color: #ffffff;
 }
+
 .first-reason h2{
   display: inline-block;
+
   width: 122px;
   text-align: center;
   padding-top: 35px;
 
   color: #ffffff;
 }
-.first-reason span{
+
+.first-reason span {
   display: block;
+
   text-align: center;
 }
-/******************************************************************/
-.recomendations {
 
-}
+/************** first recomendation ****************/
 
 .first-recomendation {
   float: left;
+
   width: 33.33%;
+  min-height: 322px;
+
   background-image: url(../img/sedona-index-housing.png);
   background-repeat: no-repeat;
   background-position: 50% 52px;
-  min-height: 322px;
-
-
 }
-.recomendations h2{
+
+.recomendations h2 {
   margin-top: 151px;
 }
-.recomendations p{
+
+.recomendations p {
   display: inline-block;
+
   margin: 0;
   width: 250px;
+
   text-align: center;
 }
+
+/************** second recomendation ****************/
+
 .second-recomendation {
   float: left;
+
   width: 33.33%;
+  min-height: 322px;
+
   background-image: url(../img/sedona-index-food.png);
   background-repeat: no-repeat;
   background-position: 50% 52px;
-  min-height: 322px;
-
-
 }
-
+/************** third recomendation ****************/
 .third-recomendation {
   float: left;
+
   width: 33.33%;
+  min-height: 322px;
+
   background-image: url(../img/sedona-index-souvenires.png);
   background-repeat: no-repeat;
   background-position: 50% 49px;
-  min-height: 322px;
-
-
 }
-/*********************************************************/
+
+
 .second-reason-pic {
   float: left;
 }
@@ -665,3 +683,12 @@ color: #88b6d1;
 color: #88b6d1;
 }
 
+.academy-logo:hover {
+
+}
+/*********** ИСПРАВИТЬ
+/*
+Банеры соц сетей - центрировать текст по вертикали-горизонтали и задать высоту строки равную высоте блока(инлайн-блоки)
+
+
+*/
