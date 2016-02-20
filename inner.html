@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <title>HTML Academy: Седона</title>
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
         <link href="./css/style.css" rel="stylesheet">
     </head>
     <body>
@@ -11,18 +13,19 @@
                 <ul>
                     <li><a href="#">Информация</a></li>
                     <li><a href="#">Фото и видео</a></li>
-                    <li><img src="./img/sedona-index-city-of-sedona.jpg" width="138" height="70" alt="Sedona"></li>
+                    <li><img src="./img/sedona-index-city-of-sedona.jpg" alt="Sedona"></li>
                     <li><a href="#">Карта штата</a></li>
-                    <li><a href="#">Гостиницы</a></li>
+                    <li><a href="#" class="current">Гостиницы</a></li>
                 </ul>
             </nav>
         </header>
         <main class="inner container">
+          <div class="wrap">
             <div class="house-choice-form  clearfix">
                 <form action="#" method="post">
                     <div class="checkbox">
-                        <!--<h2>Инфраструктура:</h2>
-                        <ul>
+                      <ul class="infrastructure">
+                        <li><h2>Инфраструктура:</h2></li>
                             <li>
                                 <input type="checkbox" id="swimmingpool" checked>
                                 <label for="swimmingpool">Бассейн</label>
@@ -36,8 +39,8 @@
                                 <label for="wifi">Wi-fi</label>
                             </li>
                         </ul>
-                        <h2>Тип жилья:</h2>
-                        <ul>
+                        <ul class="housing-type">
+                            <li><h2>Тип жилья:</h2></li>
                             <li>
                                 <input type="checkbox" id="hotel" checked>
                                 <label for="hotel">Гостиница</label>
@@ -50,7 +53,7 @@
                                 <input type="checkbox" id="apartment" checked>
                                 <label for="apartment">Апартаменты</label>
                             </li>
-                        </ul>-->
+                        </ul>
                     </div>
                     <div class="day-price">
                         <h2>Стоимость в  сутки(Р):</h2>
@@ -60,19 +63,40 @@
                     </div>
                     <input type="submit" class="show-lodging-btn" value="Показать">
                 </form>
+                </div>
+              </div>
             </div>
             <div class="found clearfix">
                 <div class="head-found clearfix">
-                    <ul>
-                        <li><h2>Найдено:3</h2></li>
-                        <li><h3>Сортировка</h3></li>
-                        <li><a href="#" class="oreder-by-price">По цене</a></li>
-                        <li><a href="#" class="oreder-by-type">По типу</a></li>
-                        <li><a href="#" class="oreder-by-rating">По рейтингу</a></li>
-                        <li><a href="#" class="more">Больше</a><a href="#" class="less">Меньше</a></li>
-                    </ul>
+                        <h2>Найдено: 3</h2>
+                        <h3>Сортировка</h3>
+                        <ul class="sort">
+                          <li><a href="#" class="oreder-by-price">По цене</a></li>
+                          <li><a href="#" class="oreder-by-type">По типу</a></li>
+                          <li><a href="#" class="oreder-by-rating">По рейтингу</a></li>
+                          <li><a href="#" class="more">Больше</a><a href="#" class="less">Меньше</a></li>
+                        </ul>
                 </div>
                 <div class="found-content">
+<div class="housing clearfix">
+  <img src="./img/sedona-hotel-view-1.jpg" width="135" height="90" alt="hotel-pic">
+  <div class="housing-content-wrap">
+    <h2>Amara resort & spa</h2>
+    <div class="btn-wrap">
+      <h3>Гостиница</h3>
+      <div class="btn"><a href="#">Подробнее</a></div>
+    </div>
+    <div class="btn-wrap">
+      <h3>от 3500 р.</h3>
+      <div class="btn btn-reserve"><a href="#">Забронировать</a></div>
+    </div>
+  </div>
+  <div class="stars-wrap">
+    <div class="stars"><span class="icon-star"></span><span class="icon-star"></span>
+    <span class="icon-star"></span><span class="icon-star"></span></div>
+    <span class="rate">Рейтинг: 8,5</span>
+  </div>
+</div><!--
                     <div class="housing">
                         <img src="./img/sedona-hotel-view-1.jpg" width="135" height="90" alt="hotel-pic">
                         <h2>Amara resort & spa</h2>
@@ -100,7 +124,7 @@
                         <span class="stars">3</span>
                         <span>Рейтинг: 9,2</span>
                     </div>
-                </div>
+                </div>-->
             </div>
         </main>
         <footer class="container clearfix">
