@@ -85,9 +85,8 @@ h3{
 /*************************************************************** MAIN ***************/
 .up-down-icon-position{
   text-align: right;
-  outline: 1px solid red;
   font-size: 20px;
-}
+}/*убрать отсюда*/
 
 /*************************** header  **********************/
 .main-header {
@@ -114,7 +113,6 @@ h3{
   padding-bottom: 16px;
   list-style: none;
   text-align: center;
-  outline: 2px solid red;
 }
 
 .main-navigation a:hover{
@@ -175,7 +173,7 @@ h3{
   width: 1200px;
 }
 /************************** MAIN ********************************/
-
+/************************main-index***********************/
 .resons-recomndations {
   text-align: center;
 }
@@ -183,7 +181,9 @@ h3{
 .resons-recomndations h2,p,span {
   text-align: center;
 }
+
 /************** first reason ****************/
+
 .first-reason {
   float: left;
 
@@ -210,6 +210,94 @@ h3{
   display: block;
 
   text-align: center;
+}
+/************** second reason ****************/
+.second-reason-pic {
+  float: left;
+}
+
+.second-reason {
+  float: left;
+  width: 33.33%;
+  padding: 0;
+  min-height: 256px;
+
+  background: #81b3d2;
+  color: #ffffff;
+}
+.second-reason h2{
+  display: inline-block;
+  width: 170px;
+  text-align: center;
+  padding-top: 35px;
+  color: #ffffff;
+}
+.second-reason span{
+  display: block;
+  text-align: center;
+}
+/************** third reason ****************/
+.third-reason {
+  float: left;
+  width: 33.33%;
+  min-height: 256px;
+  text-align: center;
+}
+
+.third-reason h2{
+  display: inline-block;
+  width: 200px;
+  margin-top: 46px;
+}
+.third-reason span{
+  display: block;
+  text-align: center;
+}
+.third-reason p{
+  display: inline-block;
+  width: 220px;
+}
+/************** fourth reason ****************/
+.fourth-reason {
+  float: left;
+  width: 33.33%;
+  min-height: 256px;
+}
+.fourth-reason h2{
+  display: inline-block;
+  width: 150px;
+  margin-top: 46px;
+}
+.fourth-reason span{
+  display: block;
+  text-align: center;
+}
+.fourth-reason p{
+  display: inline-block;
+  width: 220px;
+}
+/************** fifth reason ****************/
+.fifth-reason {
+  float: left;
+  width: 33.33%;
+  min-height: 256px;
+}
+.fifth-reason h2{
+  display: inline-block;
+  width: 150px;
+  margin-top: 46px;
+}
+.fifth-reason span{
+  display: block;
+  text-align: center;
+}
+.fifth-reason p{
+  display: inline-block;
+  width: 210px;
+}
+/************** other reasond ****************/
+.other-reasons {
+  background: #eeeeee;
 }
 
 /************** first recomendation ****************/
@@ -250,7 +338,9 @@ h3{
   background-repeat: no-repeat;
   background-position: 50% 52px;
 }
+
 /************** third recomendation ****************/
+
 .third-recomendation {
   float: left;
 
@@ -263,96 +353,8 @@ h3{
 }
 
 
-.second-reason-pic {
-  float: left;
-}
 
-.second-reason {
-  float: left;
-  width: 33.33%;
-  padding: 0;
-  min-height: 256px;
-
-  background: #81b3d2;
-  color: #ffffff;
-}
-.second-reason h2{
-  display: inline-block;
-  width: 170px;
-  text-align: center;
-  padding-top: 35px;
-  color: #ffffff;
-}
-.second-reason span{
-  display: block;
-  text-align: center;
-}
-.other-reasons {
-  background: #eeeeee;
-}
-/*********************************************************************/
-.third-reason {
-  float: left;
-  width: 33.33%;
-  min-height: 256px;
-  text-align: center;
-}
-
-.third-reason h2{
-  display: inline-block;
-  width: 200px;
-  margin-top: 46px;
-}
-.third-reason span{
-  display: block;
-  text-align: center;
-}
-.third-reason p{
-  display: inline-block;
-  width: 200px;
-}
-/********************************************/
-.fourth-reason {
-  float: left;
-  width: 33.33%;
-  min-height: 256px;
-
-
-}
-.fourth-reason h2{
-  display: inline-block;
-  width: 150px;
-  margin-top: 46px;
-}
-.fourth-reason span{
-  display: block;
-  text-align: center;
-}
-.fourth-reason p{
-  display: inline-block;
-  width: 220px;
-}
-/********************************************/
-.fifth-reason {
-  float: left;
-  width: 33.33%;
-  min-height: 256px;
-}
-.fifth-reason h2{
-  display: inline-block;
-  width: 150px;
-  margin-top: 46px;
-}
-.fifth-reason span{
-  display: block;
-  text-align: center;
-}
-.fifth-reason p{
-  display: inline-block;
-  width: 210px;
-}
-/************************************************************************/
-/************************************************************************/
+/**********************MAP************************/
 .hotel-map{
   margin: 0;
   padding: 0;
@@ -382,10 +384,8 @@ h3{
 
 
 }
-/************************************************************************/
 
 .form {
-  /******************************************/
   width: 568px;
   margin:0;
   margin-left: auto;
@@ -396,10 +396,12 @@ h3{
   margin: 0;
   list-style: none;
 }
+
 .form li {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .map {
   margin: 0;
   padding:0;
@@ -407,6 +409,7 @@ h3{
   background-color: #b2b2b2;
   background-image: url(../img/sedona-index-map.jpg);
 }
+
 .form-head>h2 {
   display: inline-block;
   text-align:center;
@@ -418,41 +421,196 @@ h3{
   color: white;
   background: #766357;
 }
+.form .search-btn {
+  display: block;
+  width: 458px;
 
 
-/************************************************************************---FOOTER--- */
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top:32px;
+  margin-left:15px;
+  margin-bottom:15px;
+
+  font-weight:bold;
+  font-style: "PT Sans", "sans-serif";
+  font-size: 21px;
+  line-height: 1.3em;
+  text-transform: uppercase;
+
+  background-color: #81b3d2;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.form{
+  padding-top:45px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+
+.form input, label{
+  margin-left: 15px;
+  font-weight:bold;
+  font-style: "PT Sans", "sans-serif";
+  font-size: 14px;
+  line-height: 1.3em;
+  color: #000000;
+
+  background: #f2f2f2;
+  border: none;
+  outline: none;
+}
+
+.input {/*плохой нейминг! */
+  padding-top:11px;
+  padding-bottom:11px;
+  padding-left: 10px;
+  width: 346px;
+}
+
+.input-age {
+  display: inline-block;
+  padding-top:11px;
+  padding-bottom:11px;
+  margin-top: 10px;
+  width: 114px;
+  text-align:center;
+}
+
+.inner{
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/*************************      FOOTER          **************************/
 .main-footer {
   text-align: center;
 }
+
 .footer-hashtag {
   float: left;
+
   width: 33.33%;
   margin-top: 46px;
   font-weight:bold;
   font-style: "PT Sans", "sans-serif";
   font-size: 21px;
   color: #000000;
-
-
 }
 
 .footer-socials {
   float: left;
+
   width: 33.33%;
   margin-top: 35px;
   margin-bottom: 36px;
+}
 
+.footer-socials a{
+  text-decoration: none;
+}
 
+.footer-socials {
+  font-size: 0;
+  color: #ffffff;
+}
+
+.footer-copyright {
+  float: left;
+
+  width: 33.33%;
+  margin-top: 34px;
+}
+
+.footer-copyright h3 {
+  float: left;
+
+  margin-left: 103px;
+  font-size: 14px;
+}
+
+.academy-logo {
+  display: block;
+
+  padding-top: 5px;
+  padding-left: 6px;
+}
+
+.icon-facebook {
+  font-size: 19px;
+  display: inline-block;
+  margin-left:6px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left:10px;
+  padding-right:10px;
+  background-color: #81b3d2;
+}
+
+.icon-twitter{display: inline-block;
+  margin-left:6px;
+  font-size: 19px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left:10px;
+  padding-right: 10px;
+  background-color: #81b3d2;
+}
+
+.icon-youtube{display: inline-block;
+  margin-left:6px;
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  padding-left:7px;
+  padding-right: 8px;
+  background-color: #81b3d2;
+}
+
+.icon-facebook:hover{
+  background-color: #669ec0;
+}
+
+.icon-youtube:hover{
+  background-color: #669ec0;
+}
+
+.icon-twitter:hover{
+  background-color: #669ec0;
+}
+
+.icon-facebook:active{
+  color: #88b6d1;
+}
+
+.icon-youtube:active{
+  color: #88b6d1;
+}
+
+.icon-twitter:active{
+  color: #88b6d1;
+}
+
+.search-btn:hover {
+  background-color: #669ec0;
+}
+.search-btn:active{
+  color: #88b6d1;
 }
 
 
-.house-choice-form {
+.form-head>h2:active{
+  color: #857871;
+}
 
+.form-head>h2:hover{
+  background-color: #604e43;
 }
-.inner{
-  margin-top: 0;
-  padding-top: 0;
-}
+
+/*********************             INNER              *****************/
 .wrap{
   background-image: url(../img/index-background-mountains.jpg);
   margin-bottom:0;
@@ -498,7 +656,6 @@ h3{
   width: 355px;
   margin-left: 334px;
   margin-top: 30px;
-  outline: 2px solid red;
 }
 .infrastructure {
   display: inline-block;
@@ -642,8 +799,6 @@ h3{
   text-align: center;
   color: #ffffff;
   text-decoration: none;
-
-/*Добавить стили*/
 }
 .stars-wrap {
   float: right;
@@ -680,157 +835,13 @@ h3{
   color: #8b8b8b;
 }
 /******************************************************/
-.form .search-btn {
-  display: block;
-  width: 458px;
 
-
-  padding-top: 15px;
-  padding-bottom: 15px;
-  margin-top:32px;
-  margin-left:15px;
-  margin-bottom:15px;
-
-  font-weight:bold;
-  font-style: "PT Sans", "sans-serif";
-  font-size: 21px;
-  line-height: 1.3em;
-  text-transform: uppercase;
-
-  background-color: #81b3d2;
-  color: #ffffff;
-  border: none;
-  outline: none;
-  cursor: pointer;
-
-}
-.form{
-  padding-top:45px;
-  padding-bottom: 30px;
-  background-color: #ffffff;
-}
-.form input, label{
-  margin-left: 15px;
-  font-weight:bold;
-  font-style: "PT Sans", "sans-serif";
-  font-size: 14px;
-  line-height: 1.3em;
-  color: #000000;
-
-  background: #f2f2f2;
-  border: none;
-  outline: none;
-}
-
-.input {
-  padding-top:11px;
-  padding-bottom:11px;
-  padding-left: 10px;
-  width: 346px;
-}
-
-.input-age {
-  display: inline-block;
-  padding-top:11px;
-  padding-bottom:11px;
-  margin-top: 10px;
-  width: 114px;
-  text-align:center;
-}
 
 /*************************** HOVER ***************************************/
 
-.search-btn:hover {
-  background-color: #669ec0;
-}
-.search-btn:active{
-  color: #88b6d1;
-}
 
 
-.form-head>h2:active{
-  color: #857871;
-}
 
-.form-head>h2:hover{
-  background-color: #604e43;
-}
-
-.footer-socials a{
-    text-decoration: none;
-}
-
-.footer-socials {
-  font-size: 0;
-  color: #ffffff;
-}
-.footer-copyright {
-  float: left;
-  width: 33.33%;
-  margin-top: 34px;
-}
-
-.footer-copyright h3 {
-  float: left;
-  margin-left: 103px;
-  font-size: 14px;
-
-}
-.academy-logo {
-  display: block;
-  padding-top: 5px;
-  padding-left: 6px;
-}
-.icon-facebook {
-  font-size: 19px;
-  display: inline-block;
-  margin-left:6px;
-  padding-top: 11px;
-  padding-bottom: 11px;
-  padding-left:10px;
-  padding-right:10px;
-  background-color: #81b3d2;
-
-}
-.icon-twitter{display: inline-block;
-  margin-left:6px;
-  font-size: 19px;
-  padding-top: 11px;
-  padding-bottom: 11px;
-  padding-left:10px;
-  padding-right: 10px;
-  background-color: #81b3d2;
-
-}
-.icon-youtube{display: inline-block;
-  margin-left:6px;
-  font-size: 22px;
-  padding-top: 10px;
-  padding-bottom: 12px;
-  padding-left:7px;
-  padding-right: 8px;
-  background-color: #81b3d2;
-}
-.icon-facebook:hover{
-background-color: #669ec0;
-}
-.icon-youtube:hover{
-background-color: #669ec0;
-}
-
-.icon-twitter:hover{
-background-color: #669ec0;
-}
-.icon-facebook:active{
-color: #88b6d1;
-}
-.icon-youtube:active{
-color: #88b6d1;
-}
-
-.icon-twitter:active{
-color: #88b6d1;
-}
 
 .academy-logo:hover {
 
