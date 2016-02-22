@@ -20,125 +20,154 @@
             </nav>
         </header>
         <main class="inner container">
-          <div class="wrap">
-            <div class="house-choice-form  clearfix">
-                <form action="#" method="post">
-                    <div class="checkbox">
-                      <ul class="infrastructure">
-                        <li><h2>Инфраструктура:</h2></li>
-                            <li>
-                                <input type="checkbox" id="swimmingpool" checked>
-                                <label for="swimmingpool">Бассейн</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" id="parking">
-                                <label for="parking">Парковка</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" id="wifi">
-                                <label for="wifi">Wi-fi</label>
-                            </li>
-                        </ul>
-                        <ul class="housing-type">
-                            <li><h2>Тип жилья:</h2></li>
-                            <li>
-                                <input type="checkbox" id="hotel" checked>
-                                <label for="hotel">Гостиница</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" id="motel" checked>
-                                <label for="motel">Мотель</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" id="apartment" checked>
-                                <label for="apartment">Апартаменты</label>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="day-price">
-                        <h2>Стоимость в  сутки(Р):</h2>
+            <div class="wrap">
+                <div class="house-choice-form  clearfix">
+                    <form action="#" method="post">
+                        <div class="checkbox">
+                            <ul class="infrastructure">
+                                <li><h2>Инфраструктура:</h2></li>
+                                <li>
+                                    <input type="checkbox" id="swimmingpool" checked>
+                                    <label for="swimmingpool">Бассейн</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="parking">
+                                    <label for="parking">Парковка</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="wifi">
+                                    <label for="wifi">Wi-fi</label>
+                                </li>
+                            </ul>
+                            <ul class="housing-type">
+                                <li><h2>Тип жилья:</h2></li>
+                                <li>
+                                    <input type="checkbox" id="hotel" checked>
+                                    <label for="hotel">Гостиница</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="motel" checked>
+                                    <label for="motel">Мотель</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="apartment" checked>
+                                    <label for="apartment">Апартаменты</label>
+                                </li>
+                            </ul>
+                            </div>
+                        <div class="day-price">
+                            <h2>Стоимость в  сутки(Р):</h2>
                             <input type="text" value="от 0">
                             <input type="text" value="до 3000">
                             <input type="range" min="0" max="3000" step="10">
-                    </div>
-                    <input type="submit" class="show-lodging-btn" value="Показать">
-                </form>
+                        </div>
+                        <input type="submit" class="show-lodging-btn" value="Показать">
+                    </form>
                 </div>
-              </div>
             </div>
             <div class="found clearfix">
                 <div class="head-found clearfix">
-                        <h2>Найдено: 3</h2>
-                        <h3>Сортировка</h3>
-                        <ul class="sort">
-                          <li><a href="#" class="oreder-by-price">По цене</a></li>
-                          <li><a href="#" class="oreder-by-type">По типу</a></li>
-                          <li><a href="#" class="oreder-by-rating">По рейтингу</a></li>
-                          <li><a href="#" class="more">Больше</a><a href="#" class="less">Меньше</a></li>
-                        </ul>
+                    <h2>Найдено: 3</h2>
+                    <h3>Сортировка</h3>
+                    <ul class="sort">
+                        <li><a href="#" class="oreder-by-price">По цене</a></li>
+                        <li><a href="#" class="oreder-by-type">По типу</a></li>
+                        <li><a href="#" class="oreder-by-rating">По рейтингу</a></li>
+                        <li><a href="#" class="up-down icon-up-dir"></a><a href="#" class="up-down icon-down-dir"></a></li>
+                    </ul>
                 </div>
-                <div class="found-content">
-<div class="housing clearfix">
-  <img src="./img/sedona-hotel-view-1.jpg" width="135" height="90" alt="hotel-pic">
-  <div class="housing-content-wrap">
-    <h2>Amara resort & spa</h2>
-    <div class="btn-wrap">
-      <h3>Гостиница</h3>
-      <div class="btn"><a href="#">Подробнее</a></div>
-    </div>
-    <div class="btn-wrap">
-      <h3>от 3500 р.</h3>
-      <div class="btn btn-reserve"><a href="#">Забронировать</a></div>
-    </div>
-  </div>
-  <div class="stars-wrap">
-    <div class="stars"><span class="icon-star"></span><span class="icon-star"></span>
-    <span class="icon-star"></span><span class="icon-star"></span></div>
-    <span class="rate">Рейтинг: 8,5</span>
-  </div>
-</div><!--
-                    <div class="housing">
-                        <img src="./img/sedona-hotel-view-1.jpg" width="135" height="90" alt="hotel-pic">
-                        <h2>Amara resort & spa</h2>
-                        <span>Гостиница</span>
-                        <span>от 3500 р.</span>
-                        <a href="#" class="description"><span>Подробнее</span></a><a class="book" href="#"><span>Забронировать</span></a>
-                         <span class="stars">4</span>
-                        <span>Рейтинг: 8,5</span>
-                        </div>
-                    <div  class="housing">
-                        <img src="./img/sedona-hotel-view-2.jpg" width="135" height="90" alt="motel-pic">
-                        <h2>Desert quail inn</h2>
-                        <span>Мотель</span>
-                        <span>от 2000р.</span>
-                        <a href="#" class="description"><span>Подробнее</span></a><a class="book" href="#"><span>Забронировать</span></a>
-                         <span class="stars">2</span>
-                        <span>Рейтинг: 8,9</span>
-                    </div>
-                    <div  class="housing">
-                        <img src="./img/sedona-hotel-view-3" width="135" height="90" alt="apartment-pic">
-                        <h2>Villas at poco diablo</h2>
-                        <span>Апартаменты</span>
-                        <span>от 4000р.</span>
-                        <a href="#" class="description"><span>Подробнее</span></a><a class="book" href="#"><span>Забронировать</span></a>
-                        <span class="stars">3</span>
-                        <span>Рейтинг: 9,2</span>
-                    </div>
-                </div>-->
             </div>
+            <div class="housing clearfix">
+                <img src="./img/sedona-hotel-view-1.jpg" width="135" height="90" alt="hotel-pic">
+                <div class="housing-content-wrap">
+                    <h2>Amara resort & spa</h2>
+                    <div class="btn-wrap">
+                        <h3>Гостиница</h3>
+                        <div class="btn">
+                            <a href="#">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="btn-wrap">
+                        <h3>от 3500 р.</h3>
+                        <div class="btn btn-reserve">
+                            <a href="#">Забронировать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="stars-wrap">
+                    <div class="stars">
+                        <span class="icon-star"></span>
+                        <span class="icon-star"></span>
+                        <span class="icon-star"></span>
+                        <span class="icon-star"></span>
+                    </div>
+                    <span class="rate">Рейтинг: 8,5</span>
+                </div>
+            </div>
+            <div class="housing clearfix">
+                <img src="./img/sedona-hotel-view-2.jpg" width="135" height="90" alt="hotel-pic">
+                <div class="housing-content-wrap">
+                    <h2>desert quail inn</h2>
+                    <div class="btn-wrap">
+                        <h3>мотель</h3>
+                        <div class="btn">
+                            <a href="#">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="btn-wrap">
+                        <h3>от 2000 р.</h3>
+                        <div class="btn btn-reserve">
+                            <a href="#">Забронировать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="stars-wrap">
+                    <div class="stars">
+                        <span class="icon-star"></span>
+                        <span class="icon-star"></span>
+                    </div>
+                    <span class="rate">Рейтинг: 8,9</span>
+                </div>
+            </div>
+            <div class="housing clearfix">
+                <img src="./img/sedona-hotel-view-3.jpg" width="135" height="90" alt="hotel-pic">
+                <div class="housing-content-wrap">
+                    <h2>Villas at poco diablo</h2>
+                    <div class="btn-wrap">
+                        <h3>апартаменты</h3>
+                        <div class="btn">
+                            <a href="#">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="btn-wrap">
+                        <h3>от 4000 р.</h3>
+                        <div class="btn btn-reserve">
+                            <a href="#">Забронировать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="stars-wrap">
+                    <div class="stars">
+                        <span class="icon-star"></span>
+                        <span class="icon-star"></span>
+                        <span class="icon-star"></span>
+                    </div>
+                    <span class="rate">Рейтинг: 9,2</span>
+                </div>
+            </div>                           
         </main>
-        <footer class="container clearfix">
-                <div class="footer-hashtag">
-                    <span>#VISITSEDONA</span>
-                </div>
-                <div class="footer-socials">
-                    <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-                    <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-                        <a class="social-btn social-btn-yb" href="#">Ютуб</a>
-                </div>
-                <div class="footer-copyright">
-                    <img src="./img/sedona-index-htmal-academy.jpg" width="113" height="39" alt="website by HTML Academy">
-                </div>
+       <footer class="main-footer container clearfix">
+            <div class="footer-hashtag">
+                <span>#VISITSEDONA</span>
+            </div>
+            <div class="footer-socials">
+                <span class="icon-twitter"></span>
+                <span class="icon-facebook"></span>
+                <span class="icon-youtube"></span>
+            </div>
+            <div class="footer-copyright">
+                <h3>Website by</h3><img src="./img/academy-logo.png" class="academy-logo" width="113" height="39"  alt="website by HTML Academy">
+            </div>
         </footer>
     </body>
 </html>
