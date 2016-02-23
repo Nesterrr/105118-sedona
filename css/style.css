@@ -83,10 +83,11 @@ h3{
 
 }
 /*************************************************************** MAIN ***************/
-.up-down-icon-position{
+/*.up-down-icon-position{
   text-align: right;
   font-size: 20px;
 }/*убрать отсюда*/
+
 
 /*************************** header  **********************/
 .main-header {
@@ -144,13 +145,18 @@ h3{
 .bg {
   width: 1200px;
   height: 508px;
-
   background-image: url(../img/sedona-index-welcome-bg.jpg);
   background-position: 0px -57px;
 
   border: 1px solid white;/*Как убрать костыль?*/
 }
-
+.bg-edge {
+  width: 1200px;
+  height: 508px;
+  background-position: 0 23px;
+  background-image: url(../img/sedona-index-bg-cut.png);
+  background-repeat: no-repeat;
+}
 .welcome-logo {
   width: 458px;
   height: 352px;
@@ -380,9 +386,6 @@ h3{
   width: 400px;
   padding-top: 10px;
   padding-bottom: 32px;
-
-
-
 }
 
 .form {
@@ -463,7 +466,9 @@ h3{
   border: none;
   outline: none;
 }
-
+.form label {
+  background-color: white;
+}
 .input {/*плохой нейминг! */
   padding-top:11px;
   padding-bottom:11px;
@@ -623,8 +628,9 @@ h3{
   min-height: 158px;
 }
 .checkbox li{
+  position: relative;
   list-style: none;
-  padding-left: 5px;
+  padding-left: 18px;
   padding-bottom: 20px;
 }
 .checkbox li:first-child{
@@ -639,7 +645,7 @@ h3{
 .checkbox label{
   background: none;
   text-decoration: none;
-  font-weight: normal;
+  font-weight: 400;
   font-style: "PT Sans", "sans-serif";
   font-size: 16px;
   color: #ffffff;
@@ -696,13 +702,30 @@ h3{
   text-decoration: none;
   font-size: 12px;
 }
+.oreder-by-price{
+  color: #b3d1e4;
+}
+.oreder-by-type,.oreder-by-rating {
+  color: #d1d1d1;
+}
+
 .head-found li:last-child a{
   text-decoration: none;
   font-size: 21px;
 }
-.head-found li:last-child{
-  margin-left: 455px;
+.head-found li:nth-child(4){
+  margin-left: 470px;
+  margin-right: 10px;
+  padding-right: 0;
   border-bottom: none;
+}
+.head-found li:first-child{
+  border-bottom: none;  
+}
+.head-found li:last-child{
+  padding-left: 0;
+  margin-left: 0;
+  border-bottom: none;  
 }
 .head-found h2,h3{
   display: inline-block;
@@ -856,3 +879,68 @@ h3{
 
 
 */
+
+/* checkbox inner */
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"] + label::before {
+  display: block;
+  margin: 10px 0;
+  line-height: 20px;
+  padding-left: 45px;
+  position: relative;
+  cursor: pointer;
+}
+input[type="checkbox"] + label::before{
+  content: "\2610";
+  position: absolute;
+  top: -7px;
+  left: -40px;
+  width: 10px;
+  height: 10px;
+  color: white;
+  font-family: "symbols-sedona";
+  font-size: 25px;
+}
+
+input[type="checkbox"]:checked + label::before{
+  content: "\2611";
+}
+.disabled input[type="checkbox"] + label::before{
+  color: #6a6a6a;
+  content: "\2610";
+}
+/*****************************/
+
+.up-arrow::before {
+  content: "\25b2";
+  color: #cccccc;
+  font-size: 17px;
+}
+
+.downn-arrow::before {
+  content: "\25bc";
+  color: #cccccc;
+  font-size: 17px;
+}
+
+li:hover .downn-arrow::before {
+  color: black;
+}
+li:hover .up-arrow::before {
+  color: black;
+}
+
+li:active .downn-arrow::before{
+   color: #81b3d2;
+}
+
+li:active .up-arrow::before{
+   color: #81b3d2;
+}
+
+.active .downn-arrow::before{
+  color: #81b3d2;
+}
