@@ -419,6 +419,7 @@ h3{
 .form li {
   padding-top: 10px;
   padding-bottom: 10px;
+  color: black;
 }
 
 .map {
@@ -440,6 +441,7 @@ h3{
   color: white;
   background: #766357;
 }
+
 .form .search-btn {
   display: block;
   width: 458px;
@@ -476,7 +478,8 @@ h3{
   font-style: "PT Sans", "sans-serif";
   font-size: 14px;
   line-height: 1.3em;
-  color: #ffffff;
+  color: #000000;
+  background-color: #f2f2f2;
 
   border: none;
   outline: none;
@@ -489,6 +492,8 @@ h3{
   padding-bottom:11px;
   padding-left: 10px;
   width: 346px;
+  text-align: right;
+  font-size: 0px;
 }
 
 .input-age {
@@ -1127,3 +1132,7 @@ li:active .up-arrow::before{
   background-position: 50% 0;
 }
 
+/*
+Скрыть стандартный инпут
+https://up.htmlacademy.ru/htmlcss/12/module/5/screencasts
+*/
